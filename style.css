@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 100px;
@@ -9,11 +10,18 @@ html {
   font-family: "Petit Formal Script", cursive;
 }
 #title-of-open-ceremony {
-  font-family: "Merriweather", serif;
+  font-family: "Open Sans", sans-serif;
 }
 #open-message {
-  font-family: "Merriweather", serif;
+  font-family: "Open Sans", sans-serif;
 }
 #location {
-  font-family: "Merriweather", serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+#albim {
+  font-family: "Open Sans", sans-serif;
+}
+#albbq {
+  font-family: "Open Sans", sans-serif;
 }
