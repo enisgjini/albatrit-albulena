@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
-
-.m-5 h1 {
-  font-family: "Forum", cursive;
-  margin-top: 25px;
+@import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+#name-of-couple {
+  font-family: "Petit Formal Script", cursive;
+}
+#title-of-open-ceremony {
+  font-family: "Merriweather", serif;
+}
+#open-message {
+  font-family: "Merriweather", serif;
 }
