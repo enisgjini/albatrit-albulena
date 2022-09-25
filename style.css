@@ -1,6 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 html {
   scroll-behavior: smooth;
@@ -10,7 +11,10 @@ html {
   font-family: "Petit Formal Script", cursive;
 }
 #title-of-open-ceremony {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+#subtitle-of-open-ceremony {
+  font-family: "Poppins", sans-serif;
 }
 #open-message {
   font-family: "Open Sans", sans-serif;
@@ -24,4 +28,49 @@ html {
 }
 #albbq {
   font-family: "Open Sans", sans-serif;
+}
+
+.nav-item a {
+  font-family: "Poppins", sans-serif;
+}
+
+#ballina h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+#ballina h4 {
+  font-family: "Poppins", sans-serif;
+}
+
+#lokacioni h1 {
+  font-family: "Poppins", sans-serif;
+}
+/* Default height for small devices */
+#intro-example {
+  height: 400px;
+}
+
+#pyetjet-paraprake {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Height for devices larger than 992px */
+@media (min-width: 992px) {
+  #intro-example {
+    height: 600px;
+  }
+}
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  #title-of-open-ceremony {
+    margin-top: 75px;
+  }
+}
+
+#qifti {
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  font-family: "Poppins", sans-serif;
 }
